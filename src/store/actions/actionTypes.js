@@ -1,0 +1,4 @@
+export const FETCH_SUCCESS = 'FETCH_SUCCESS';
+export const FETCH_FAILED = 'FETCH_FAILED';
+export const SAVE_CHANGES = 'SAVE_CHANGES';
+export const GET_POSTS_SUCCESS = 'GET_POSTS_SUCCES'; 

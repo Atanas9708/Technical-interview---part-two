@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Collapsible {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.Collapsible:hover {
+  cursor: pointer;
+}
+
+.w3-container {
+  width: 40%;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  padding: 10px;
+}
+
+.w3-bar-item {
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-green, .btn-blue {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  top: 0;
+  bottom: 10px;
+  left: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-green {
+  background-color: #4CAF50;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.w3-bar .w3-bar-item {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
